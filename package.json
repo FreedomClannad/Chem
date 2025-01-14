@@ -5,19 +5,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no example specified\\\" && exit 1"
   },
   "keywords": [],
   "author": "FreedomClannad",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.5",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "@typescript-eslint/parser": "^8.19.1",
-    "@vitejs/plugin-react-swc": "^3.7.2",
     "eslint": "8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin": "^1.0.1",
@@ -28,8 +24,6 @@
     "globals": "^15.14.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.1",
-    "vite": "^6.0.7",
-    "vite-plugin-dts": "^4.5.0"
+    "typescript-eslint": "^8.19.1"
   }
 }

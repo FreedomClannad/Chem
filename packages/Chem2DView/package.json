@@ -1,8 +1,8 @@
 {
   "name": "chem2dview",
   "version": "0.0.1",
-  "main": "index.js",
-  "types": "main.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/main.d.ts",
   "type": "module",
   "files": [
     "dist"
@@ -22,7 +22,26 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "ketcher-core": "^2.26.0"
+    "ketcher-core": "^2.26.0",
+    "uuid": "^11.0.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin": "^1.0.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.5.0"
+  }
 }

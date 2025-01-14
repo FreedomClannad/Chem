@@ -1,1 +1,2 @@
-export * from "./Chem2DImg";
+export * from "./chem2D-img";
+export * from "./chem2D-svg";

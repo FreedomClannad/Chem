@@ -1,5 +1,7 @@
 # os
 .DS_Store
+# dist
+dist/
 
 ## yarn
 .yarn-integrity
