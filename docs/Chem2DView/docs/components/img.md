@@ -56,3 +56,18 @@ M  END`;
 
 # API
 ## Props
+| 参数 | 说明 |           类型            |                 默认值                  |
+| :---: | :---: |:-----------------------:|:------------------------------------:|
+| mol | mol格式字符串 |         string          |                                      |
+| id | 唯一值 |         string          |                  -                   |
+| style | 配置外城容器style | **React.CSSProperties** |                  -                   |
+| rootClass | 外层容器类名 |         string          |                  -                   |
+| boxClass | 盒子容器类名 |         string          |                  -                   |
+| width | 宽度 |         number          |                  -                   |
+| height | 高度 |         number          |                  -                   |
+| options | 配置ketcher渲染参数 |           any           |                  -                   |
+| highlight | 分子高亮内容 |      HighlightMol       |                  -                   |
+| error | 错误展示内容 |     React.ReactNode     |                  -                   |
+| preview | 开启放大镜 |        boolean {minScale: number; maxScale: number}         |  | true |
+
+
