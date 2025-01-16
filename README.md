@@ -6,7 +6,7 @@
  - TypeScript
  - React
 ## 工程化架构：
- - monorepo + yarn workspaces
+ - monorepo + pnpm workspaces
 ## 目录架构：
  - packages
    - ChemCore 核心库

@@ -1,5 +1,5 @@
 import { MolSerializer, LogSettings } from "ketcher-core";
-import React, { useEffect, useRef, memo, ReactNode, useState, CSSProperties } from "react";
+import { useEffect, useRef, memo, ReactNode, useState, CSSProperties } from "react";
 import { HighlightMol, RenderStruct } from "./RenderStruct";
 import { v4 as uuid4 } from "uuid";
 import { Spinner } from "@/chem2D-loading";
