@@ -124,5 +124,6 @@ const Chem2DSVG = memo((props: MolSVGProps) => {
 		</div>
 	);
 });
+Chem2DSVG.displayName = "Chem2DSVG";
 
 export { Chem2DSVG };

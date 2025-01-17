@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
 import "molstar/build/viewer/molstar.css";
 import "./styles.css";
 import type { loadStructureUrlType, loadStructureDataType } from "@/types";

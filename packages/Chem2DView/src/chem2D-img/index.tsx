@@ -174,4 +174,6 @@ const Chem2DIMG = memo((props: MolIMGProps) => {
 	);
 });
 
+Chem2DIMG.displayName = "Chem2DIMG";
+
 export { Chem2DIMG };
